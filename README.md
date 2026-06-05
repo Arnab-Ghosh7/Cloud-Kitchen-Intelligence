@@ -99,3 +99,7 @@ All query templates are saved in `src/query_exercises.sql` and `submission/exerc
 2. **Average Cost-for-Two by Cuisine**: Joined against the bridge cuisines table and grouped with average calculations.
 3. **Multiple Cuisines Coverage**: Groups by restaurant and uses `HAVING COUNT(cuisine_tag) > 1` to find multi-concept spots.
 4. **Highest Priced Menu Item**: Employs a non-correlated subquery (`MAX(price)`) to locate the most expensive dish and its restaurant.
+
+
+## Author
+Arnab Ghosh
