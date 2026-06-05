@@ -1,0 +1,51 @@
+restaurant_name,item_name,category,price,is_bestseller
+The Crust Cafe,Truffle Mushroom Risotto,Mains,420,False
+The Crust Cafe,Classic Alfredo Pasta,Mains,350,True
+The Crust Cafe,Peri Peri Paneer Flatbread,Appetizers,280,False
+The Crust Cafe,Nutella Cheesecake,Desserts,250,True
+The Crust Cafe,Cafe Latte,Beverages,180,False
+The Crust Cafe,Iced Peach Tea,Beverages,150,False
+The Crust Cafe,Garlic Bread with Cheese,Appetizers,190,False
+The Crust Cafe,Warm Chocolate Fudge Brownie,Desserts,220,False
+The Crust Cafe,Avocado Sourdough Toast,Appetizers,310,True
+The Crust Cafe,Watermelon Mint Cooler,Beverages,160,False
+Spicy Tadka,Paneer Butter Masala,Mains,280,True
+Spicy Tadka,Veg Diwani Handi,Mains,260,False
+Spicy Tadka,Dal Makhani,Mains,240,True
+Spicy Tadka,Butter Naan,Breads,60,False
+Spicy Tadka,Tandoori Roti,Breads,30,False
+Spicy Tadka,Hara Bhara Kabab,Starters,220,False
+Spicy Tadka,Veg Manchurian Wet,Chinese,240,False
+Spicy Tadka,Jeera Rice,Rice,160,False
+Spicy Tadka,Gulab Jamun (2 Pcs),Desserts,80,False
+Spicy Tadka,Paneer Tikka Masala,Mains,290,True
+Biryani Durbar,Premium Veg Dum Biryani (Serves 1-2),Biryani,290,True
+Biryani Durbar,Paneer Tikka Biryani (Serves 1-2),Biryani,320,True
+Biryani Durbar,Subz-E-Biryani (Serves 1),Biryani,220,False
+Biryani Durbar,Soya Chaap Biryani,Biryani,260,False
+Biryani Durbar,Paneer Lasooni Tikka Starter,Starters,240,False
+Biryani Durbar,Veg Galouti Kabab,Starters,210,False
+Biryani Durbar,Double Ka Meetha,Desserts,120,False
+Biryani Durbar,Shahi Phirni,Desserts,110,True
+Biryani Durbar,Mirchi Ka Salan (Extra),Sides,40,False
+Biryani Durbar,Garlic Mint Raita,Sides,30,False
+South Taste,Special Butter Masala Dosa,Dosa,120,True
+South Taste,Cheese Mysore Masala Dosa,Dosa,150,True
+South Taste,Steamed Idli (2 Pcs),Idli & Vada,60,False
+South Taste,Medu Vada (2 Pcs),Idli & Vada,70,True
+South Taste,Onion Tomato Uttapam,Uttapam,110,False
+South Taste,Filter Coffee,Beverages,50,True
+South Taste,Upma,Snacks,60,False
+South Taste,Sheera,Snacks,60,False
+South Taste,Rava Masala Dosa,Dosa,130,False
+South Taste,South Taste Thali,Meals,180,False
+Wok & Roll,Veg Hakka Noodles,Noodles,200,True
+Wok & Roll,Schezwan Fried Rice,Rice,210,True
+Wok & Roll,Veg Manchurian Gravy,Mains,220,True
+Wok & Roll,Paneer Chilli Dry,Starters,240,True
+Wok & Roll,Spring Rolls Veg (6 Pcs),Starters,180,False
+Wok & Roll,Triple Schezwan Rice,Rice & Noodles,270,True
+Wok & Roll,Manchow Soup,Soups,120,False
+Wok & Roll,Hot & Sour Soup,Soups,120,False
+Wok & Roll,Honey Chilli Potato,Starters,190,False
+Wok & Roll,Fried Ice Cream,Desserts,160,False

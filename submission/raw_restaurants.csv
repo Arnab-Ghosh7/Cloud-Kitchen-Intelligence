@@ -1,0 +1,38 @@
+restaurant_name,cuisines,rating,number_of_reviews,cost_for_two,locality,delivery_time_mins,type
+The Crust Cafe,"Cafe, Desserts, Italian",4.5,320.0,500.0,College Road,25,Dine-In Restaurant
+Spicy Tadka,"North Indian, Punjabi, Chinese",4.2,1100.0,600.0,College Road,35,Dine-In Restaurant
+Biryani Durbar,"Mughlai, Biryani",4.4,850.0,400.0,College Road,20,Cloud Kitchen
+South Taste,South Indian,4.6,1450.0,250.0,College Road,15,Dine-In Restaurant
+Wok & Roll,"Chinese, Asian",4.1,430.0,450.0,College Road,30,Dine-In Restaurant
+Burger Barn,"Fast Food, Burgers, Beverages",4.3,670.0,350.0,College Road,22,Dine-In Restaurant
+Behrouz Biryani,"Biryani, Mughlai",4.4,510.0,700.0,College Road,25,Cloud Kitchen
+Faasos,"Fast Food, Wraps, Rolls",4.0,920.0,300.0,College Road,18,Cloud Kitchen
+Oven Story Pizza,"Pizzas, Fast Food",4.2,730.0,600.0,College Road,28,Cloud Kitchen
+Sweet Truth,"Desserts, Bakery",4.3,290.0,250.0,College Road,20,Cloud Kitchen
+The Crust Cafe,"Cafe, Desserts, Italian",4.5,320.0,500.0,College Road,25,Dine-In Restaurant
+spicy tadka,"North Indian, Punjabi",4.2,1100.0,600.0,College Road,35,Dine-In Restaurant
+Chai Tapri,"Street Food, Beverages",,45.0,150.0,College Road,12,Dine-In Restaurant
+Mom's Kitchen,"North Indian, Home-style",4.5,12.0,,College Road,40,Cloud Kitchen
+Green Salad Co.,"Healthy Food, Salads",3.9,,400.0,College Road,30,Cloud Kitchen
+Nashik Misal House,"Maharashtrian, Street Food",4.7,2300.0,200.0,College Road,18,Dine-In Restaurant
+Hotel Panchavati Pride,"North Indian, South Indian, Chinese",3.8,180.0,550.0,College Road,32,Dine-In Restaurant
+The Belgian Waffle Co.,"Desserts, Waffles",4.5,480.0,300.0,College Road,22,Dine-In Restaurant
+Pizza Hut,"Pizzas, Fast Food, Italian",3.9,1200.0,600.0,College Road,35,Dine-In Restaurant
+Subway,"Healthy Food, Fast Food, Salads",4.1,850.0,350.0,College Road,20,Dine-In Restaurant
+The Good Bowl,"healthy food, bowls",4.2,150.0,300.0,College Road,25,Cloud Kitchen
+Firangi Bake,"Italian, Mexican, Fast Food",4.0,85.0,400.0,College Road,28,Cloud Kitchen
+Mandarin Oak,"Chinese, Asian",4.1,210.0,500.0,College Road,25,Cloud Kitchen
+Sardarji Da Dhaba,"north indian, punjabi",4.3,640.0,500.0,College Road,35,Dine-In Restaurant
+Saffron Biryani House,"Biryani, North Indian",,120.0,350.0,College Road,25,Unknown
+Cafe Coffee Day,"cafe, fast food",4.0,450.0,,College Road,20,Dine-In Restaurant
+Rolls Mania,"Fast Food, Rolls",4.2,560.0,250.0,College Road,18,Dine-In Restaurant
+Kwality Walls Swirls,"Ice Cream, Desserts",4.4,190.0,200.0,College Road,15,Dine-In Restaurant
+Temptations,"Cafe, Fast Food, Desserts",4.3,820.0,400.0,College Road,22,Dine-In Restaurant
+Shree Leela Sandwich,"Street Food, Fast Food",4.5,980.0,150.0,College Road,15,Dine-In Restaurant
+Noodle Bar,"Chinese, Thai",4.0,110.0,450.0,College Road,30,Unknown
+Amrut Tandoor,"North Indian, Tandoori",4.3,310.0,350.0,College Road,28,Dine-In Restaurant
+Dessert Heaven,"desserts, bakery",4.2,75.0,300.0,College Road,20,Cloud Kitchen
+KFC,"Fast Food, Burgers",4.1,1400.0,500.0,College Road,20,Dine-In Restaurant
+The Biryani Life,Biryani,3.9,95.0,300.0,College Road,24,Cloud Kitchen
+Starbucks,"Cafe, Beverages",4.4,380.0,700.0,College Road,20,Dine-In Restaurant
+Shreeji Chaat Center,"Street Food, Chaat",4.6,1250.0,150.0,College Road,15,Dine-In Restaurant

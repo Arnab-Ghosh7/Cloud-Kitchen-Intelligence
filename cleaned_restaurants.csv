@@ -1,0 +1,36 @@
+restaurant_name,cuisines,rating,number_of_reviews,cost_for_two,locality,delivery_time_mins,type
+The Crust Cafe,"Cafe, Desserts, Italian",4.5,320,500,College Road,25,Dine-In Restaurant
+Spicy Tadka,"North Indian, Punjabi, Chinese",4.2,1100,600,College Road,35,Dine-In Restaurant
+Biryani Durbar,"Mughlai, Biryani",4.4,850,400,College Road,20,Cloud Kitchen
+South Taste,South Indian,4.6,1450,250,College Road,15,Dine-In Restaurant
+Wok & Roll,"Chinese, Asian",4.1,430,450,College Road,30,Dine-In Restaurant
+Burger Barn,"Fast Food, Burgers, Beverages",4.3,670,350,College Road,22,Dine-In Restaurant
+Behrouz Biryani,"Biryani, Mughlai",4.4,510,700,College Road,25,Cloud Kitchen
+Faasos,"Fast Food, Wraps, Rolls",4.0,920,300,College Road,18,Cloud Kitchen
+Oven Story Pizza,"Pizzas, Fast Food",4.2,730,600,College Road,28,Cloud Kitchen
+Sweet Truth,"Desserts, Bakery",4.3,290,250,College Road,20,Cloud Kitchen
+Chai Tapri,"Street Food, Beverages",4.2,45,150,College Road,12,Dine-In Restaurant
+Mom's Kitchen,"North Indian, Home-Style",4.5,12,350,College Road,40,Cloud Kitchen
+Green Salad Co.,"Healthy Food, Salads",3.9,0,400,College Road,30,Cloud Kitchen
+Nashik Misal House,"Maharashtrian, Street Food",4.7,2300,200,College Road,18,Dine-In Restaurant
+Hotel Panchavati Pride,"North Indian, South Indian, Chinese",3.8,180,550,College Road,32,Dine-In Restaurant
+The Belgian Waffle Co.,"Desserts, Waffles",4.5,480,300,College Road,22,Dine-In Restaurant
+Pizza Hut,"Pizzas, Fast Food, Italian",3.9,1200,600,College Road,35,Dine-In Restaurant
+Subway,"Healthy Food, Fast Food, Salads",4.1,850,350,College Road,20,Dine-In Restaurant
+The Good Bowl,"Healthy Food, Bowls",4.2,150,300,College Road,25,Cloud Kitchen
+Firangi Bake,"Italian, Mexican, Fast Food",4.0,85,400,College Road,28,Cloud Kitchen
+Mandarin Oak,"Chinese, Asian",4.1,210,500,College Road,25,Cloud Kitchen
+Sardarji Da Dhaba,"North Indian, Punjabi",4.3,640,500,College Road,35,Dine-In Restaurant
+Saffron Biryani House,"Biryani, North Indian",4.2,120,350,College Road,25,Cloud Kitchen
+Cafe Coffee Day,"Cafe, Fast Food",4.0,450,350,College Road,20,Dine-In Restaurant
+Rolls Mania,"Fast Food, Rolls",4.2,560,250,College Road,18,Dine-In Restaurant
+Kwality Walls Swirls,"Ice Cream, Desserts",4.4,190,200,College Road,15,Dine-In Restaurant
+Temptations,"Cafe, Fast Food, Desserts",4.3,820,400,College Road,22,Dine-In Restaurant
+Shree Leela Sandwich,"Street Food, Fast Food",4.5,980,150,College Road,15,Dine-In Restaurant
+Noodle Bar,"Chinese, Thai",4.0,110,450,College Road,30,Dine-In Restaurant
+Amrut Tandoor,"North Indian, Tandoori",4.3,310,350,College Road,28,Dine-In Restaurant
+Dessert Heaven,"Desserts, Bakery",4.2,75,300,College Road,20,Cloud Kitchen
+KFC,"Fast Food, Burgers",4.1,1400,500,College Road,20,Dine-In Restaurant
+The Biryani Life,Biryani,3.9,95,300,College Road,24,Cloud Kitchen
+Starbucks,"Cafe, Beverages",4.4,380,700,College Road,20,Dine-In Restaurant
+Shreeji Chaat Center,"Street Food, Chaat",4.6,1250,150,College Road,15,Dine-In Restaurant

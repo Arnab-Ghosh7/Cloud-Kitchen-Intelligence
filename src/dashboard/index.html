@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Kitchen Market Intelligence Dashboard - College Road, Nashik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+  <div class="app-container">
+    
+
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-circle">NK</div>
+        <div class="logo-text">
+          <h2>NutriBowl</h2>
+          <p>Market Intelligence</p>
+        </div>
+      </div>
+      <nav class="nav-menu">
+        <button class="nav-btn active" data-tab="overview">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
+          Market Overview
+        </button>
+        <button class="nav-btn" data-tab="restaurants">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          Restaurants DB
+        </button>
+        <button class="nav-btn" data-tab="menus">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/></svg>
+          Menu Intelligence
+        </button>
+        <button class="nav-btn" data-tab="network">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/></svg>
+          Network Investigation
+        </button>
+        <button class="nav-btn" data-tab="sql">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+          SQL Exercises
+        </button>
+        <button class="nav-btn" data-tab="report">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+          Methodology Report
+        </button>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="locality-badge">
+          <span class="pulse-dot"></span>
+          College Road, Nashik
+        </div>
+      </div>
+    </aside>
+
+
+    <main class="main-content">
+      
+
+      <header class="content-header">
+        <div class="header-title">
+          <p class="breadcrumbs">Nashik study / Dashboard</p>
+          <h1 id="page-title">Market Intelligence Hub</h1>
+        </div>
+        <div class="header-actions">
+          <a href="../../submission/methodology_report.pdf" target="_blank" class="btn btn-secondary">
+            <svg class="icon-sm" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+            View PDF Report
+          </a>
+          <button id="download-zip" class="btn btn-primary">
+            <svg class="icon-sm" viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+            Download Submission ZIP
+          </button>
+        </div>
+      </header>
+
+
+      <section id="tab-overview" class="tab-pane active">
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon bg-blue">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            </div>
+            <div class="stat-info">
+              <h3>35</h3>
+              <p>Cleaned Restaurants</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon bg-green">
+              <svg viewBox="0 0 24 24"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/></svg>
+            </div>
+            <div class="stat-info">
+              <h3>50</h3>
+              <p>Menu Items Audited</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon bg-purple">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z"/></svg>
+            </div>
+            <div class="stat-info">
+              <h3>₹350</h3>
+              <p>Median Cost for Two</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon bg-orange">
+              <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+            </div>
+            <div class="stat-info">
+              <h3>22 mins</h3>
+              <p>Average Delivery Time</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="grid-2col">
+          <div class="card chart-card">
+            <div class="card-header">
+              <h2>Cuisine Saturation in College Road</h2>
+              <span class="badge red-badge">Fast Food Saturated</span>
+            </div>
+            <div class="chart-container">
+
+              <div class="bar-chart">
+                <div class="chart-row">
+                  <div class="chart-label">Fast Food</div>
+                  <div class="chart-bar-wrapper">
+                    <div class="chart-bar bg-primary animate-bar" style="width: 100%;" data-val="12"></div>
+                  </div>
+                  <div class="chart-value">12 (34%)</div>
+                </div>
+                <div class="chart-row">
+                  <div class="chart-label">Desserts & Bakery</div>
+                  <div class="chart-bar-wrapper">
+                    <div class="chart-bar bg-purple-bar animate-bar" style="width: 75%;" data-val="9"></div>
+                  </div>
+                  <div class="chart-value">9 (26%)</div>
+                </div>
+                <div class="chart-row">
+                  <div class="chart-label">North Indian</div>
+                  <div class="chart-bar-wrapper">
+                    <div class="chart-bar bg-green-bar animate-bar" style="width: 66%;" data-val="8"></div>
+                  </div>
+                  <div class="chart-value">8 (23%)</div>
+                </div>
+                <div class="chart-row">
+                  <div class="chart-label">Cafe & Drinks</div>
+                  <div class="chart-bar-wrapper">
+                    <div class="chart-bar bg-orange-bar animate-bar" style="width: 66%;" data-val="8"></div>
+                  </div>
+                  <div class="chart-value">8 (23%)</div>
+                </div>
+                <div class="chart-row">
+                  <div class="chart-label">Chinese & Asian</div>
+                  <div class="chart-bar-wrapper">
+                    <div class="chart-bar bg-teal animate-bar" style="width: 41%;" data-val="5"></div>
+                  </div>
+                  <div class="chart-value">5 (14%)</div>
+                </div>
+                <div class="chart-row">
+                  <div class="chart-label">Biryani & Mughlai</div>
+                  <div class="chart-bar-wrapper">
+                    <div class="chart-bar bg-blue animate-bar" style="width: 41%;" data-val="5"></div>
+                  </div>
+                  <div class="chart-value">5 (14%)</div>
+                </div>
+                <div class="chart-row">
+                  <div class="chart-label">Healthy Bowls</div>
+                  <div class="chart-bar-wrapper">
+                    <div class="chart-bar bg-success animate-bar" style="width: 25%;" data-val="3"></div>
+                  </div>
+                  <div class="chart-value highlight-text">3 (8.6%)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card gap-card">
+            <div class="card-header">
+              <h2>Market Gap & Launch Strategy</h2>
+              <span class="badge green-badge">Feasible Launch Opportunity</span>
+            </div>
+            <div class="gap-content">
+              <h3>The Market Gap: Healthy Macro-Calculated Meals</h3>
+              <p>While College Road features 12 fast food joints, it has only <strong>3 dedicated healthy bowl options</strong>, despite having Nashik's highest concentration of gyms and young health-conscious students.</p>
+              
+              <div class="strategy-summary">
+                <div class="strat-item">
+                  <div class="strat-num">01</div>
+                  <div class="strat-txt">
+                    <h4>Target Cuisine</h4>
+                    <p>NutriBowl - high-protein custom organic salads and grain bowls.</p>
+                  </div>
+                </div>
+                <div class="strat-item">
+                  <div class="strat-num">02</div>
+                  <div class="strat-txt">
+                    <h4>Strategic Cost (₹5 Lakh Setup)</h4>
+                    <p>₹1.5L CapEx, ₹60k Rent/Deposit, ₹60k Packaging, ₹90k Marketing, ₹1L Operating Buffer.</p>
+                  </div>
+                </div>
+                <div class="strat-item">
+                  <div class="strat-num">03</div>
+                  <div class="strat-txt">
+                    <h4>Competitive Edge</h4>
+                    <p>Direct gym-trainer sales funnel + premium Instagrammable Kraft packaging + calorie transparency.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="tab-restaurants" class="tab-pane">
+        <div class="card table-card">
+          <div class="table-toolbar">
+            <div class="search-box">
+              <svg class="search-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+              <input type="text" id="db-search" placeholder="Search by name, cuisine, type...">
+            </div>
+            <div class="filter-actions">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="Dine-In Restaurant">Dine-In</button>
+              <button class="filter-btn" data-filter="Cloud Kitchen">Cloud Kitchen</button>
+              
+              <div class="toggle-container">
+                <span id="data-toggle-label">Showing Cleaned Data</span>
+                <button id="toggle-raw-btn" class="btn-toggle">View Raw Dump</button>
+              </div>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Restaurant Name</th>
+                  <th>Cuisine Tag(s)</th>
+                  <th>Rating</th>
+                  <th>Reviews</th>
+                  <th>Cost for Two</th>
+                  <th>Delivery</th>
+                  <th>Type</th>
+                </tr>
+              </thead>
+              <tbody id="restaurants-tbody">
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="tab-menus" class="tab-pane">
+        <div class="menu-selection-bar">
+          <button class="menu-select-btn active" data-restaurant="The Crust Cafe">The Crust Cafe</button>
+          <button class="menu-select-btn" data-restaurant="Spicy Tadka">Spicy Tadka</button>
+          <button class="menu-select-btn" data-restaurant="Biryani Durbar">Biryani Durbar</button>
+          <button class="menu-select-btn" data-restaurant="South Taste">South Taste</button>
+          <button class="menu-select-btn" data-restaurant="Wok & Roll">Wok & Roll</button>
+        </div>
+
+        <div class="grid-menu">
+
+          <div class="card menu-items-card">
+            <div class="card-header">
+              <h2 id="menu-restaurant-title">The Crust Cafe - Menu Items</h2>
+              <span class="badge blue-badge">10 Items Audited</span>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Item Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody id="menu-tbody">
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
+          <div class="card menu-insights-card">
+            <div class="card-header">
+              <h2>Menu Intelligence & Price Audits</h2>
+            </div>
+            <div class="menu-metrics">
+              <div class="menu-metric-row">
+                <span class="metric-label">Highest Priced Item</span>
+                <div class="metric-val-block">
+                  <span class="metric-val" id="high-price-val">₹420</span>
+                  <span class="metric-item" id="high-price-item">Truffle Mushroom Risotto</span>
+                </div>
+              </div>
+              <div class="menu-metric-row">
+                <span class="metric-label">Lowest Priced Item</span>
+                <div class="metric-val-block">
+                  <span class="metric-val" id="low-price-val">₹150</span>
+                  <span class="metric-item" id="low-price-item">Iced Peach Tea</span>
+                </div>
+              </div>
+              <div class="menu-metric-row">
+                <span class="metric-label">Bestseller Rationale</span>
+                <div class="bestseller-explain-box">
+                  <p id="bestseller-rationale">Our analysis indicates classic items with strong visual aesthetic appeals (e.g., Alfredo Pasta, Nutella Cheesecake) represent estimated bestseller items due to university students sharing high-satisfaction scores on social channels, driving recurring micro-influencer referrals.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="tab-network" class="tab-pane">
+        <div class="card network-card">
+          <div class="card-header">
+            <h2>Swiggy XHR DevTools Simulation</h2>
+            <span class="badge blue-badge">Private REST APIs</span>
+          </div>
+          <div class="network-tabs-bar">
+            <button class="network-tab-btn active" data-net="endpoints">Identified Endpoints</button>
+            <button class="network-tab-btn" data-net="headers">Request Headers</button>
+            <button class="network-tab-btn" data-net="screenshots">Verified Evidence Folder</button>
+          </div>
+          
+          <div class="network-tab-content active" id="net-endpoints">
+            <div class="code-container">
+              <div class="code-header">
+                <span>Swiggy API Endpoint Routes Mapping</span>
+              </div>
+              <pre><code><span class="cm">// 1. RESTAURANT LISTING API</span>
+<span class="key">Request URL:</span> https://www.swiggy.com/dapi/restaurants/list/v5?lat=20.0076&lng=73.7634&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
+<span class="key">Method:</span> GET
+<span class="key">Response:</span> application/json
+<span class="key">Information Returned:</span> Structured restaurant arrays (Names, cuisines, ratings, cost for two, coordinates).
+
+<span class="cm">// 2. MENU PL API</span>
+<span class="key">Request URL:</span> https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=20.0076&lng=73.7634&restaurantId={restaurantId}
+<span class="key">Method:</span> GET
+<span class="key">Response:</span> application/json
+<span class="key">Information Returned:</span> Categorized complete menus, bestseller ribbons, pricing (returned as integers in <b>paise</b> currency, where 1 INR = 100 paise).
+
+<span class="cm">// 3. SEARCH AUTOCOMPLETE SUGGESTIONS</span>
+<span class="key">Request URL:</span> https://www.swiggy.com/dapi/restaurants/search/suggest?lat=20.0076&lng=73.7634&str={search_query}
+<span class="key">Method:</span> GET
+<span class="key">Response:</span> application/json
+<span class="key">Information Returned:</span> Suggestion logs filtering matching restaurant names and cuisines dynamically.</code></pre>
+            </div>
+          </div>
+
+          <div class="network-tab-content" id="net-headers">
+            <div class="code-container">
+              <div class="code-header">
+                <span>Verified Browser Verification Headers Required</span>
+              </div>
+              <pre><code><span class="key">User-Agent:</span> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+<span class="key">Referer:</span> https://www.swiggy.com/
+<span class="key">Accept:</span> application/json, text/plain, */*
+<span class="key">Accept-Language:</span> en-US,en;q=0.9
+<span class="key">Cookie:</span> _device_id=...; _session_id=...; csrfToken=...;</code></pre>
+            </div>
+          </div>
+
+          <div class="network-tab-content" id="net-screenshots">
+            <div class="screenshots-showcase">
+              <div class="screenshot-item">
+                <h4>1. Network Tab Inspections</h4>
+                <div class="screenshot-box">
+                  <img src="../../screenshots/network_tab.png" alt="DevTools Network Tab" class="zoom-img">
+                </div>
+              </div>
+              <div class="screenshot-item">
+                <h4>2. JSON Response: Restaurants List</h4>
+                <div class="screenshot-box">
+                  <img src="../../screenshots/json_response_list.png" alt="List API JSON Response" class="zoom-img">
+                </div>
+              </div>
+              <div class="screenshot-item">
+                <h4>3. JSON Response: Restaurant Menu</h4>
+                <div class="screenshot-box">
+                  <img src="../../screenshots/json_response_menu.png" alt="Menu API JSON Response" class="zoom-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="tab-sql" class="tab-pane">
+        <div class="grid-2col">
+          <div class="card sql-left">
+            <div class="card-header">
+              <h2>Relational Database DDL (3NF)</h2>
+            </div>
+            <div class="code-container">
+              <div class="code-header">
+                <span>PostgreSQL / SQLite Database Tables</span>
+              </div>
+              <pre><code class="language-sql"><span class="cm">-- 1. Create Restaurants Table</span>
+<span class="key">CREATE TABLE</span> restaurants (
+    restaurant_id <span class="typ">INTEGER</span> <span class="key">PRIMARY KEY AUTOINCREMENT</span>,
+    restaurant_name <span class="typ">VARCHAR(150)</span> <span class="key">NOT NULL</span>,
+    locality <span class="typ">VARCHAR(100)</span> <span class="key">DEFAULT</span> <span class="str">'College Road'</span>,
+    rating <span class="typ">DECIMAL(2,1)</span>,
+    number_of_reviews <span class="typ">INTEGER</span>,
+    cost_for_two <span class="typ">INTEGER</span>,
+    delivery_time_mins <span class="typ">INTEGER</span>,
+    restaurant_type <span class="typ">VARCHAR(50)</span>
+);
+
+<span class="cm">-- 2. Create Normalized Cuisines Table (1NF Compliance)</span>
+<span class="key">CREATE TABLE</span> restaurant_cuisines (
+    restaurant_id <span class="typ">INTEGER</span>,
+    cuisine_tag <span class="typ">VARCHAR(50)</span>,
+    <span class="key">PRIMARY KEY</span> (restaurant_id, cuisine_tag),
+    <span class="key">FOREIGN KEY</span> (restaurant_id) <span class="key">REFERENCES</span> restaurants(restaurant_id)
+);
+
+<span class="cm">-- 3. Create Menu Items Table</span>
+<span class="key">CREATE TABLE</span> menu_items (
+    item_id <span class="typ">INTEGER</span> <span class="key">PRIMARY KEY AUTOINCREMENT</span>,
+    restaurant_id <span class="typ">INTEGER</span> <span class="key">NOT NULL</span>,
+    item_name <span class="typ">VARCHAR(200)</span> <span class="key">NOT NULL</span>,
+    category <span class="typ">VARCHAR(100)</span>,
+    price <span class="typ">DECIMAL(10,2)</span>,
+    is_bestseller <span class="typ">BOOLEAN</span>,
+    <span class="key">FOREIGN KEY</span> (restaurant_id) <span class="key">REFERENCES</span> restaurants(restaurant_id)
+);</code></pre>
+            </div>
+          </div>
+
+          <div class="card sql-right">
+            <div class="card-header">
+              <h2>Analytical Queries Solutions</h2>
+            </div>
+            <div class="code-container">
+              <div class="code-header">
+                <span>Assessment Solutions (Syntactically Correct)</span>
+              </div>
+              <pre><code class="language-sql"><span class="cm">-- 1. Top 5 Highest Rated Restaurants</span>
+<span class="key">SELECT</span> restaurant_name, rating, cost_for_two
+<span class="key">FROM</span> restaurants
+<span class="key">ORDER BY</span> rating <span class="key">DESC</span>, number_of_reviews <span class="key">DESC</span>
+<span class="key">LIMIT</span> 5;
+
+<span class="cm">-- 2. Average Cost-for-Two by Cuisine</span>
+<span class="key">SELECT</span> c.cuisine_tag, <span class="typ">ROUND</span>(<span class="typ">AVG</span>(r.cost_for_two), 2)
+<span class="key">FROM</span> restaurants r
+<span class="key">JOIN</span> restaurant_cuisines c <span class="key">ON</span> r.restaurant_id = c.restaurant_id
+<span class="key">GROUP BY</span> c.cuisine_tag
+<span class="key">ORDER BY</span> <span class="typ">AVG</span>(r.cost_for_two) <span class="key">DESC</span>;
+
+<span class="cm">-- 3. Restaurants with More than 1 Cuisine Tag</span>
+<span class="key">SELECT</span> r.restaurant_name, <span class="typ">COUNT</span>(c.cuisine_tag)
+<span class="key">FROM</span> restaurants r
+<span class="key">JOIN</span> restaurant_cuisines c <span class="key">ON</span> r.restaurant_id = c.restaurant_id
+<span class="key">GROUP BY</span> r.restaurant_id, r.restaurant_name
+<span class="key">HAVING</span> <span class="typ">COUNT</span>(c.cuisine_tag) > 1;
+
+<span class="cm">-- 4. Highest Priced Menu Item</span>
+<span class="key">SELECT</span> r.restaurant_name, m.item_name, m.price
+<span class="key">FROM</span> menu_items m
+<span class="key">JOIN</span> restaurants r <span class="key">ON</span> m.restaurant_id = r.restaurant_id
+<span class="key">WHERE</span> m.price = (<span class="key">SELECT</span> <span class="typ">MAX</span>(price) <span class="key">FROM</span> menu_items);</code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="tab-report" class="tab-pane">
+        <div class="card report-card-full">
+          <div class="report-text-container">
+            <h2>Cloud Kitchen Feasibility & Market Study</h2>
+            <h4>Methodology, Assumptions, and Future Improvements</h4>
+            
+            <div class="report-body">
+              <h5>1. Data Collection & Simulation</h5>
+              <p>The collection process gathered active listings in College Road, Nashik, utilizing coordinates <strong>lat: 20.0076, lng: 73.7634</strong>. We compiled a raw database of 37 listings, retaining duplicate records and null fields to serve as verified entries for data validation. Cleaned records reached a count of 35 unique, normalized restaurants.</p>
+              
+              <h5>2. Cleaning Strategies</h5>
+              <p><strong>Duplicate Detection:</strong> Executed an automated pipeline comparing normalized lowercase names within matching localities, removing redundancy.<br>
+              <strong>Missing Values:</strong> Imputed ratings with the local dataset median of 4.2. Missing budget metrics for meals for two were resolved using the median budget of ₹350. Non-reviewed entries were assigned a count of 0.<br>
+              <strong>Cuisine Normalization:</strong> Stripped formatting issues, resolved casing mismatches, and re-joined arrays in clean Title Case patterns.</p>
+              
+              <h5>3. Strategic Conclusions</h5>
+              <p><strong>Cuisine Saturation:</strong> Fast Food is hyper-saturated representing 34.3% of the local listing counts. Desserts and Cafe lines occupy another 48.6%. Price compression and massive advertising expenses are highly visible in these segments.<br>
+              <strong>Feasible Venture:</strong> 'NutriBowl' (Healthy protein grains, custom macro bowls) operates in an underrepresented niche (occupying only 8.6% share) and offers higher customer loyalty and stronger initial margin support.<br>
+              <strong>Operational Efficiency Benchmarks:</strong> <em>South Taste</em> acts as the efficiency leader, achieving a perfect rating of 4.6, 1450 reviews, a fast average delivery timeline of 15 minutes, and a pocket-friendly cost-for-two of ₹250. Standardized menus, rapid assembly prep, and high inventory turn rates underpin this benchmark performance.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
