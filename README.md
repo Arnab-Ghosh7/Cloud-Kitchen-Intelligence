@@ -1,6 +1,4 @@
-# Cloud Kitchen Market Intelligence Study - College Road, Nashik
-### Data Analytics Internship Assessment Project
-This directory contains the complete workspace, reproducible data engineering pipeline, database modeling scripts, business intelligence reports, and a premium interactive web dashboard built to fulfill the **Cloud Kitchen Market Intelligence Project** assessment.
+
 
 
 ---
