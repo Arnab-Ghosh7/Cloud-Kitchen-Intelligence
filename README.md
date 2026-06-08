@@ -2,6 +2,53 @@
 ### Data Analytics Internship Assessment Project
 This directory contains the complete workspace, reproducible data engineering pipeline, database modeling scripts, business intelligence reports, and a premium interactive web dashboard built to fulfill the **Cloud Kitchen Market Intelligence Project** assessment.
 
+---
+
+## 1. Project Directory Structure
+
+```text
+e:/Experifo Labs/
+├── src/
+│   ├── data_pipeline.py          # Data collection, cleaning, and menu generation
+│   ├── network_investigation.md  # Swiggy internal XHR REST API documentation
+│   ├── business_analysis.md      # Strategic competitive study & cloud kitchen strategy
+│   ├── query_exercises.sql       # PostgreSQL / SQLite DDL & analytical queries
+│   ├── generate_report.py        # Programmatic ReportLab PDF builder
+│   ├── generate_screenshots.py   # Programmatic PIL screenshot mockup drawer
+│   ├── pack_submission.py        # Submission directory packager and zapper
+│   └── dashboard/                # Interactive SaaS-style Web Dashboard
+│       ├── index.html            # Main markup with glassmorphism layout
+│       ├── styles.css            # Dark theme, grids, micro-animations
+│       └── app.js                # Search, filters, interactive tab controls
+├── screenshots/                  # Verified Developer Tools evidence pngs
+│   ├── network_tab.png
+│   ├── json_response_list.png
+│   └── json_response_menu.png
+├── submission/                   # Complete structured submission assets
+│   ├── raw_restaurants.csv       # 1. Raw Dataset (37 records, duplicates, nulls)
+│   ├── cleaned_restaurants.csv   # 2. Cleaned Dataset (35 records, imputed, normal)
+│   ├── menu_dataset.csv          # 3. Menu Dataset (5 benchmark spots, 50 items)
+│   ├── exercise_queries.sql      # 4. SQL File (DDL & queries)
+│   ├── methodology_report.pdf    # 5. Methodology Report (PDF)
+│   ├── screenshots/              # 6. Screenshots Folder
+│   │   ├── network_tab.png
+│   │   ├── json_response_list.png
+│   │   └── json_response_menu.png
+│   ├── data_pipeline.py          # 7. Python pipeline scripts
+│   ├── generate_screenshots.py
+│   ├── generate_report.py
+│   ├── data_pipeline.ipynb       # 7. Jupyter Notebook
+│   └── dashboard/                # 7. Embedded interactive web dashboard
+├── data_pipeline.ipynb           # Interactive reproducible Jupyter Notebook
+├── raw_restaurants.csv           # Raw dataset dump reference
+├── cleaned_restaurants.csv       # Cleaned dataset reference
+├── menu_dataset.csv              # Menu dataset reference
+├── methodology_report.pdf        # Methodology report PDF reference
+├── submission.zip                # FINAL EXPORT (Submit this Zip file!)
+└── README.md                     # This document
+```
+
+---
 
 
 ## 2. Quick Start: Interactive Dashboard
